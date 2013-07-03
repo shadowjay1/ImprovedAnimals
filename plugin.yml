@@ -1,0 +1,16 @@
+name: ImprovedAnimals
+main: com.untamedears.animals.ImprovedAnimals
+version: 1.0
+description: Improves animals.
+author: shadowjay1
+commands:
+  sit:
+    description: Sits all pets in a 10x5x10 around the player.
+    usage: /<command>
+  stand:
+    description: Stands all pets in a 10x5x10 around the player.
+    usage: /<command>
+    aliases: unsit
+  down:
+    description: Causes all pets in a 10x5x10 around the player to lose their targets.
+    usage: /<command>
