@@ -1,8 +1,9 @@
 name: ImprovedAnimals
 main: com.untamedears.animals.ImprovedAnimals
-version: 1.0
+version: 1.1
 description: Improves animals.
 author: shadowjay1
+depends: [ProtocolLib]
 commands:
   sit:
     description: Sits all pets in a 10x5x10 around the player.
@@ -12,5 +13,11 @@ commands:
     usage: /<command>
     aliases: unsit
   down:
-    description: Causes all pets in a 10x5x10 around the player to lose their targets.
+    description: Causes all wolves in a 10x5x10 around the player to lose their targets.
+    usage: /<command>
+  guard:
+    description: Causes all wolves in a 10x5x10 around the player to guard nearby reinforcements.
+    usage: /<command>
+  unguard:
+    description: Causes all wolves in a 10x5x10 around the player to stop guarding nearby reinforcements.
     usage: /<command>
